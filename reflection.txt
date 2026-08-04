@@ -1,0 +1,9 @@
+Reflection on HTML Learning
+
+During Week 1, I learned the fundamentals of HTML and how it is used to create web pages. I understood the structure of an HTML document and learned to use headings, paragraphs, lists, images, hyperlinks, tables, forms, and semantic HTML tags. I also learned how to organize content in a meaningful way.
+
+The most challenging topic for me was creating HTML forms because there are many different input types and form elements. However, with practice, I became more comfortable using them.
+
+The concept I enjoyed the most was building the mini HTML project. It was interesting to combine all the HTML concepts into a single webpage and see the final result in the browser.
+
+Learning HTML has given me a strong foundation for web development. It will help me learn CSS and JavaScript in the coming weeks and enable me to build responsive and interactive websites in the future.

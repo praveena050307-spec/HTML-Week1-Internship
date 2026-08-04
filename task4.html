@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <p>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </p>
+
+        <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </p>
+
+        <p>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        </p>
+
+        <p>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required>
+        </p>
+
+        <p>
+            <label>Gender:</label><br>
+
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+        </p>
+
+        <p>
+            <label for="course">Course:</label><br>
+
+            <select id="course" name="course" required>
+                <option value="">-- Select Course --</option>
+                <option>Computer Science Engineering</option>
+                <option>Information Technology</option>
+                <option>Artificial Intelligence</option>
+                <option>Electronics and Communication</option>
+                <option>Mechanical Engineering</option>
+                <option>Civil Engineering</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="address">Address:</label><br>
+
+            <textarea id="address" name="address" rows="4" cols="40"
+                placeholder="Enter your address"></textarea>
+        </p>
+
+        <p>
+            <label>Skills:</label><br>
+
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label><br>
+
+            <input type="checkbox" id="problem" name="skills" value="Problem Solving">
+            <label for="problem">Problem Solving</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear Form">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
